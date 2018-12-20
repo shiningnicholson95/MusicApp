@@ -9,7 +9,7 @@ import { MusicserviceService } from '../musicservice.service';
 })
 export class GenrepageComponent implements OnInit {
 public getinfo;
-  constructor(private _route: ActivatedRoute, private router: Router,public Music:MusicserviceService) { 
+  constructor(private Music:MusicserviceService) { 
     console.log("genrepage called")
   }
 
